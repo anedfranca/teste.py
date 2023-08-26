@@ -55,17 +55,17 @@ num2 = int(input ("Digite outro numero: "))
 resultado = num1 + num2
 print(f"o resultado é: {resultado}")
 
-familia = ["Leonardo", "Michelly", "Ane", "Luisa"]
+familia = ["Camilo", "Maria", "Ane", "Luisa"]
 print(familia[0]) #primeiro nome
 print(familia[-1]) #de tras pra frente. -1 seria o ultimo nome
 print(familia[2:]) #a partir do 2
 print(familia[2:4])#do 2 ao 4. lembrando que começa do 0
 familia[1] = "Luisa"#fica na posicao determinada
-familia.extend(["Luciene", "Camilo"]) #adicionar lista na outra
+familia.extend(["Luciene", "Lua"]) #adicionar lista na outra
 familia.append("Petra") #adicionar apenas um valor/nome na lista
 familia.insert(3, "Petra") #ficar na posicao determinada mas sem substituir
 familia.pop() #remove o ultimo 
-familia.remove("Michelly") #remove c base no nome
+familia.remove("Maria") #remove c base no nome
 familia.clear() #limpa a lista
 print(familia.index("luisa")) # mostra qual posicao q esse nome aparece primeiro
 print(familia.count("Luisa")) #conta quantos nomes iguais tem na lista
