@@ -8,7 +8,7 @@ print (f"meu nome é {nome}")
 print (f"gosto de {gosto_de}")
 print (f"tenho {idade}")
 
-
+'''pedir ao usuario nome e a idade e imprimir o ano em que naasceu''' 
 nome = input("Digite seu nome: ")
 idade = int (input(f"Qual a sua idade {nome}? "))
 nascimento = 2023 - idade
@@ -26,7 +26,7 @@ b = int (num2)
 print (b)
 print (type(b))
 
-
+'''calculadora'''
 num1 = 4 
 num2 = 2
 print (num1 + num2)
@@ -38,6 +38,7 @@ print (num1 ** num2) #exponenciacao#
 print (num1 // num2) #result com num int/arredondado#
 
 print ((3 + 5) *( 7 + 3))
+
 
 print (abs(-15)) #num absoluto#
 print (pow(3,3)) #exponencial#
@@ -55,18 +56,35 @@ num2 = int(input ("Digite outro numero: "))
 resultado = num1 + num2
 print(f"o resultado é: {resultado}")
 
+
+'''testes'''
+
 familia = ["Camilo", "Maria", "Ane", "Luisa"]
-print(familia[0]) #primeiro nome
-print(familia[-1]) #de tras pra frente. -1 seria o ultimo nome
-print(familia[2:]) #a partir do 2
-print(familia[2:4])#do 2 ao 4. lembrando que começa do 0
-familia[1] = "Luisa"#fica na posicao determinada
-familia.extend(["Luciene", "Lua"]) #adicionar lista na outra
-familia.append("Petra") #adicionar apenas um valor/nome na lista
-familia.insert(3, "Petra") #ficar na posicao determinada mas sem substituir
-familia.pop() #remove o ultimo 
-familia.remove("Maria") #remove c base no nome
-familia.clear() #limpa a lista
-print(familia.index("luisa")) # mostra qual posicao q esse nome aparece primeiro
-print(familia.count("Luisa")) #conta quantos nomes iguais tem na lista
-print(familia) #para aparecer
+print(familia[0]) '''primeiro nome'''
+
+print(familia[-1]) '''de tras pra frente. -1 seria o ultimo nome'''
+
+print(familia[2:]) '''a partir do 2'''
+
+print(familia[2:4]) '''do 2 ao 4. lembrando que começa do 0'''
+
+familia[1] = "Luisa" '''fica na posicao determinada'''
+
+familia.extend(["Luciene", "Lua"]) '''adicionar lista na outra'''
+
+familia.append("Petra") '''adicionar apenas um valor/nome na lista'''
+
+
+familia.insert(3, "Petra") '''ficar na posicao determinada mas sem substituir'''
+
+familia.pop() '''remove o ultimo '''
+
+familia.remove("Maria") '''remove c base no nome'''
+
+familia.clear() '''limpa a lista'''
+
+print(familia.index("luisa")) '''mostra qual posicao q esse nome aparece primeiro'''
+
+print(familia.count("Luisa")) '''conta quantos nomes iguais tem na lista'''
+
+print(familia) '''para aparecer'''
